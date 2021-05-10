@@ -1,17 +1,19 @@
-package com.example.ecommerce.controller;
+package com.example.ecommerce.api.v1.controller;
 
-import com.example.ecommerce.dto.OrderDto;
-import com.example.ecommerce.dto.OrderPlacementRequest;
-import com.example.ecommerce.dto.OrderPlacementResponse;
+import com.example.ecommerce.api.v1.dto.OrderDto;
+import com.example.ecommerce.api.v1.dto.OrderPlacementRequest;
+import com.example.ecommerce.api.v1.dto.OrderPlacementResponse;
 import com.example.ecommerce.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/api/v1")
 public class OrderController {
 
     private OrderService orderService;

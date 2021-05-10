@@ -1,8 +1,8 @@
 package com.example.ecommerce.service;
 
-import com.example.ecommerce.dto.OrderDto;
-import com.example.ecommerce.dto.OrderPlacementRequest;
-import com.example.ecommerce.dto.OrderPlacementResponse;
+import com.example.ecommerce.api.v1.dto.OrderDto;
+import com.example.ecommerce.api.v1.dto.OrderPlacementRequest;
+import com.example.ecommerce.api.v1.dto.OrderPlacementResponse;
 import com.example.ecommerce.entity.OrderPlacementStatus;
 import com.example.ecommerce.entity.OrderStatus;
 import com.example.ecommerce.exception.BusinessLogicException;

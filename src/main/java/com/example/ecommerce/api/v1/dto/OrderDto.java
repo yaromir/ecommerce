@@ -1,4 +1,4 @@
-package com.example.ecommerce.dto;
+package com.example.ecommerce.api.v1.dto;
 
 import com.example.ecommerce.entity.OrderStatus;
 import lombok.AllArgsConstructor;
